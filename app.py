@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-pip install flask
-
-
-# In[ ]:
-
 
 from flask import Flask
 from flask import render_template,request
@@ -51,16 +43,6 @@ def index():
 
 if __name__ == "__main__":
     app.run()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
